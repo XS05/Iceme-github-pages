@@ -57,8 +57,44 @@
 <div id="wrapper">
     <h1 class="text-center">DEGUSTEZ UNE GLACE</h1>
     <h2 class="text-center">MAINTENANT, TOUT DE SUITE!</h2>
-    <button type="button" class="btn btn-primary">Commandez</button>
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Commandez
+</button>
 </div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      
+      <div class="modal-body">
+       <div id="wufoo-z4s6sod0t3pdsv">
+        Fill out my <a href="https://js01.wufoo.com/forms/z4s6sod0t3pdsv">online form</a>.
+        </div>
+        <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">HTML Forms powered by <a href="http://www.wufoo.com">Wufoo</a>.</div>
+        <script type="text/javascript">var z4s6sod0t3pdsv;(function(d, t) {
+        var s = d.createElement(t), options = {
+        'userName':'js01',
+        'formHash':'z4s6sod0t3pdsv',
+        'autoResize':true,
+        'height':'774',
+        'async':true,
+        'host':'wufoo.com',
+        'header':'show',
+        'ssl':true};
+        s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+        s.onload = s.onreadystatechange = function() {
+        var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+        try { z4s6sod0t3pdsv = new WufooForm();z4s6sod0t3pdsv.initialize(options);z4s6sod0t3pdsv.display(); } catch (e) {}};
+        var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+        })(document, 'script');</script>
+ 
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <div class="spacer"></div>
 
