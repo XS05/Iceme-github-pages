@@ -1,0 +1,86 @@
+body{
+font-family: 'Open Sans', sans-serif;
+}
+
+#footer{
+	background-color:black;
+	padding-top:2em;
+	padding-bottom:2em;
+	color:white;
+}
+
+#footer a {
+	color:rgb(130,130,130);
+}
+
+#footer a:hover{
+	color:white;
+}
+
+.social a {
+	font-size:23px;
+}
+
+
+#wrapper{
+background-image: url("../images/background/background.jpg");
+background-size:cover;
+text-align:center;
+height:600px;
+color:white;
+text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+padding-top:15em;
+}
+
+#wrapper h1{
+	font-size:72px;
+}
+
+
+#wrapper h2{
+	font-size:18px;
+	padding-bottom:2em;
+}
+
+.spacer{
+	height:8em;
+}
+
+
+.feature p {
+	font-size:300;
+	letter-spacing:1px;
+}
+
+.feature img{
+	margin-bottom:1em;
+}
+
+
+/* How to override the default Bootstrap navbar */
+
+.navbar-transparent {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-nav > li > a {
+  color: #eeeeee;
+  line-height: 50px;
+}
+
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:active,
+.navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:active,
+.navbar-transparent .navbar-brand:focus {
+  color: white;
+}
